@@ -45,7 +45,6 @@ function Flower(x, y, num_petals, size, rot_rate) {
     this.age = 0;
 
     this.display = function() {
-        background(0);
 
         // move to first flower petal position
         translate(this.xpos, this.ypos);
